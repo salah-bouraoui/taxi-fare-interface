@@ -214,7 +214,7 @@ const predict = () => {
         fareResult.innerText = `$${fare}`;
       })
       .catch((error) => {
-        console.error('Error:', error);
+        console.error('Error:',  error);
       });
     });
   }
